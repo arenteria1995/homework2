@@ -37,15 +37,15 @@ nano something = 1/10^9 (reference 5)
 
 *********
 
-In one nanosecond = 11.802 inches (reference 7)
+In one nanosecond = 11.803 inches (reference 7)
 
-In one microsecond = 983.571 feet (reference 7)
+In one microsecond = 983.56896 feet (reference 7)
 
 In one millisecond = 186.282 miles (reference 7)
 
 In one second = 186282.024 miles (reference 7)
 
-In one second = 47 times around the Earth! (reference 7)
+In one second = 7 times around the Earth! (reference 7)
 
 **********
 
@@ -53,17 +53,19 @@ Manufacturing Process = 22 nm (reference 8)
 
 Transistor Count = 1.4 billion transistors (reference 8)
 
-Die Size = 177 mm^2 (reference 8)
+Die Size = 181 mm^2 (reference 8)
 
 **********
 
-time for a signal to move between transistors = picoseconds
+time for a signal to move between transistors = 0.00073 picoseconds
 
+    Sq root of 1,400,000,000 / sq root of 264 mm^2 = 2303 transistors per side
+    (11.803 in -> 0.3 m) * 0.001 = 0.0003m traveled in 1 picosecond
+    0.0003m = 300,000 nm
+    300,000 nm / 22 nm = 13,636.36
+    1 picosecond / 13,636.36 = 0.00073 picoseconds
 
-
-Time until the counter "rolls over" = years
-
-
+- Time until the counter “rolls over” = 108 years (9223372036854775807 / 2,700,000,000 hz / 60 seconds / 60 minutes / 24 hours / 365 days)
 
 REFERENCES
 **********
